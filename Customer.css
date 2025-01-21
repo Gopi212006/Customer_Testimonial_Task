@@ -1,0 +1,136 @@
+/* body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(219, 219, 219);
+    box-shadow: 5px black;
+}
+
+
+#CustomerImages{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#maincontainer{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    margin: auto;
+    height: 350px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#arrowFunction{
+    margin: 10px;
+    padding: 20px;
+}
+
+
+
+#CustomerName{
+    margin:10px 0px 0px ;
+    text-align: center;
+}
+
+    #CustomerRole{
+        margin: 0px;
+        text-align: center;
+        color:rgb(0, 160, 253);
+    
+}
+
+#Topic{
+    text-align: center;
+    text-decoration: underline rgb(0, 160, 253);
+    font-size:30px;
+}
+
+#leftBtn,#rightBtn{
+    margin:0px 20px ;
+}
+ */
+
+
+
+
+ body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, sans-serif;
+}
+
+#CustomerImages {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+#maincontainer {
+    background-color: #fff;
+    width: 40%;
+    margin: 40px auto;
+    height: 60vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#arrowFunction {
+    margin: 20px 0;
+    padding: 15px;
+    position: absolute;
+    top: 400px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+#CustomerName {
+    margin: 10px 0 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#CustomerRole {
+    margin: 0;
+    text-align: center;
+    color: rgb(0, 160, 253);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#Topic {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 160, 253);
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+#leftBtn, #rightBtn {
+    margin: 0 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 160, 253);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+
