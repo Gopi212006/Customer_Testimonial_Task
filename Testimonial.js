@@ -60,6 +60,7 @@
 
 
   rightButton.addEventListener("click",()=>{
+    
     if (indexValue<customer.length-1){
         indexValue++;
     }
